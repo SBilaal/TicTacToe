@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="new_game">Neu Geim</string>
+    <string name="multi_player">MallTea player</string>
+    <string name="stats">Stats</string>
+    <string name="grid_3">3 x 3</string>
+    <string name="grid_5">5 x 5</string>
+    <string name="classic">Klassic</string>
+    <string name="stats_classic">Stats: Klassic</string>
+    <string name="game_play">Game play: 0</string>
+    <string name="carl_score">Carl AI: 0</string>
+    <string name="toe_score">Toe: 0</string>
+    <string name="congratulations">YET...</string>
+    <string name="tic_score">Tic: 0</string>
+    <string name="toe">O</string>
+    <string name="tic">X</string>
+    <string name="or">or</string>
+    <string name="stats_malltea">Stats: Malltea</string>
+
+
+</resources>

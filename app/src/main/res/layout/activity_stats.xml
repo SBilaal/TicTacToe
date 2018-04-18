@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tic_tac_toe2"
+    tools:context=".StatsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="32dp">
+        <TextView
+            android:id="@+id/classic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/classic"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:textSize="48sp"
+            android:fontFamily="@font/driving_around"/>
+
+        <Button
+            android:id="@+id/gridk_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grid_3"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/classic"
+            android:textSize="36sp"
+            android:onClick="openStatsClassicEasy"
+            android:fontFamily="@font/driving_around"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/gridk_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grid_5"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/gridk_3"
+            android:textSize="36sp"
+            android:onClick="openStatsClassicHard"
+            android:fontFamily="@font/driving_around"
+            style="?android:attr/borderlessButtonStyle"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/multi_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multi_player"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:textSize="48sp"
+            android:fontFamily="@font/driving_around"/>
+
+        <Button
+            android:id="@+id/gridm_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grid_3"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/multi_player"
+            android:textSize="36sp"
+            android:onClick="openStatsMallteaEasy"
+            android:fontFamily="@font/driving_around"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/gridm_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/grid_5"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/gridm_3"
+            android:textSize="36sp"
+            android:onClick="openStatsMallteaHard"
+            android:fontFamily="@font/driving_around"
+            style="?android:attr/borderlessButtonStyle"/>
+    </RelativeLayout>
+
+</LinearLayout>

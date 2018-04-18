@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tic_tac_toe2"
+    tools:context=".ClassicStatsHardActivity">
+
+    <TextView
+        android:id="@+id/stats_classic_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stats_classic"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="48dp"
+        android:textSize="42sp"
+        android:fontFamily="@font/driving_around"/>
+
+    <TextView
+        android:id="@+id/game_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_play"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/stats_classic_5"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="36sp"
+        android:fontFamily="@font/driving_around"/>
+
+    <TextView
+        android:id="@+id/carl_ai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/carl_score"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/game_play"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="36sp"
+        android:fontFamily="@font/driving_around"/>
+
+    <TextView
+        android:id="@+id/toe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toe_score"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/carl_ai"
+        android:layout_marginLeft="16dp"
+        android:textSize="36sp"
+        android:fontFamily="@font/driving_around"/>
+
+    <TextView
+        android:id="@+id/congratulations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/congratulations"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/toe"
+        android:layout_marginTop="32dp"
+        android:textSize="42sp"
+        android:fontFamily="@font/driving_around"/>
+
+</RelativeLayout>
